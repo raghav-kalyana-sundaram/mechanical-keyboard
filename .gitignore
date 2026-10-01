@@ -1,0 +1,13 @@
+# macOS metadata
+.DS_Store
+
+# KiCad local state, locks, autosaves, and backups
+*.kicad_prl
+*-backups/
+_autosave-*
+~*.lck
+*.bak
+
+# Generated manufacturing packages should be attached to a tested release,
+# not committed as if this first revision were fabrication-qualified.
+manufacturing/
